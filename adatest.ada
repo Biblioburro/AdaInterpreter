@@ -1,0 +1,1 @@
+with ada.Text_IO ; use ada.Text_IO ; procedure Main is begin Ada.Text_IO.Put_Line("ada from scratch") ; end Main ;
