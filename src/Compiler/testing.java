@@ -18,6 +18,7 @@ static public String getContents() throws IOException {
 	//put any test files in  eclipse-workspace\AdaCompiler
 	FileReader in = new FileReader(filename);
 	int c;
+	//while loop to print the function
 	while((c= in.read())!= -1) {
 		contents += (char)c;
 	}
